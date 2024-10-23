@@ -232,39 +232,80 @@ nav {
     margin-bottom: 20px;
 }
 .testimonial-content {
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 40px;
     font-style: italic;
-    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 40px auto;
 }
 .testimonial-author img {
     width: 60px;
     height: 60px;
+    margin-top: 30px;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 .testimonial-author h3 {
     margin: 0;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 .testimonial-author p {
     margin: 0;
     color: #666;
+    margin-bottom: 30px;
 }
+
 footer {
     background-color: #FDF5E6;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
+
+.footer .logo{
+    text-align: left;
+    padding: 20px;
+}
+
 .footer-links {
-    margin-bottom: 20px;
+    text-align: right;
+    padding: 30px;
+    margin: 20 20;
+    font-weight: bold;
+    width: 100%;
 }
+
 .footer-links a {
     color: #4A0E0E;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 20 20;
+    padding: 30px;
 }
+.rights {
+    text-align: left;
+    flex: 1;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .social-icons a {
     color: #4A0E0E;
     text-decoration: none;
-    margin: 0 5px;
+    padding: 20px;
+}
+.footer-top {
+    background-color: #FDF5E6;
+    padding: 10px;
+   text-align: center;
+}
+.footer-bottom {
+    background-color: #FDF5E6;
+    color: #4A0E0E;
+    padding: 10px;
+    display: flex;
+    text-align: center;
 }
