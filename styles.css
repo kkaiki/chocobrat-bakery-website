@@ -309,3 +309,44 @@ footer {
     display: flex;
     text-align: center;
 }
+.best-selling-description {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.description-box, .text-box {
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.description-box {
+    margin-right: 20px;
+}
+
+.text-box {
+    position: relative;
+}
+
+.text-box::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #4A0E0E;
+}
+
+.description-box h2 {
+    font-size: 30px;
+    color: #4A0E0E;
+    margin: 0;
+}
+
+.text-box p {
+    font-size: 18px;
+    color: #6B4226;
+    margin: 0;
+}
