@@ -9,9 +9,6 @@ Welcome to the Chocobrat website repository. This project showcases a delightful
 - [Development Team](#development-team)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
